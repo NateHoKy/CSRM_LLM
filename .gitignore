@@ -1,0 +1,41 @@
+﻿# ASSESSMENT DATA — never commit
+data/
+tickets/
+ticket*.txt
+*.ticket.txt
+*.coverage.json
+*.qwen*.json
+*.llama*.json
+*.mistral*.json
+*.gemma*.json
+run*.txt
+*.out
+*.log
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.msg
+*.eml
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
